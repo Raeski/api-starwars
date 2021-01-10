@@ -1,12 +1,11 @@
-package teste.amedigital.amedigital.service;
+package teste.apistarwars.service;
 
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import teste.amedigital.amedigital.domain.Planet;
-import teste.amedigital.amedigital.repository.PlanetRepository;
+import teste.apistarwars.domain.Planet;
+import teste.apistarwars.repository.PlanetRepository;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package teste.amedigital.amedigital.domain;
+package teste.apistarwars.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,4 +1,4 @@
-package teste.amedigital.amedigital.controller;
+package teste.apistarwars.controller;
 
 
 import lombok.RequiredArgsConstructor;
@@ -7,9 +7,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
-import teste.amedigital.amedigital.domain.Planet;
-import teste.amedigital.amedigital.service.PlanetService;
+import teste.apistarwars.domain.Planet;
+import teste.apistarwars.service.PlanetService;
 
 import java.util.List;
 

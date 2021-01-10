@@ -1,13 +1,13 @@
-package teste.amedigital.amedigital;
+package teste.apistarwars;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AmedigitalApplication {
+public class ApiStarWarsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AmedigitalApplication.class, args);
+		SpringApplication.run(ApiStarWarsApplication.class, args);
 	}
 
 }
